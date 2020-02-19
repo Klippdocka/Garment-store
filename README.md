@@ -1,7 +1,7 @@
 ![Garment store](/images/webshop.jpg)
 
-# Scool project 1
-
+## Garment store
+*Scool project 1*
 The task was to create a Website which was responsive and had a form inside it. The task was also to challenge your knowledge.
 
 ## What i did

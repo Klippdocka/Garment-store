@@ -1,4 +1,4 @@
-![Garment store](/images/webshop.jpg)
+![Garment store](/images/webshop.jpg | width=60)
 
 ## Garment store
 *Scool project 1*

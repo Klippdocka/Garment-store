@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta name="description" content= "barnkläder, barnprylar, snabbleverans. Högsta kvalitet,svensk tillverkat, Fri retur ">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/09318c1397.js" crossorigin="anonymous"></script>
+    <title>Adela webshop</title>
+
+</head>
+
+<body class="bodyWrapper">
+
+    <header>
+        <img src="images/logo_transparent - kopia.png" alt="logga: Adela made by Elina Larsson"> </header>
+
+
+    <nav class="navMenyContainer">
+        <ul class="navMeny">
+            <li class="active"><a href="index.html">Hem</a></li>
+            <li><a href="contact.html">kontakt</a></li>
+            <i class="fas fa-shopping-cart" id="ShoppingCartBtn"></i>
+
+        </ul>
+    </nav>
+
+    <div id="cartModal" class="cartModal">
+        <div class="cartModalContent">
+               <div class="topCartModal"><div class="cartTitle"><p>Din varukorg</p></div>
+           <div class="cartCloseContiner"><span class="cartClosebtn">&times;</span></div></div> 
+            <div class="cartModalRows"></div>
+            <div class="btnRemove" id="btnRemove"><p>Töm varukorgen</p></div>
+        </div>
+
+    </div>
+
+
+    <div class="clothesContainer">
+
+    </div>
+
+    <div id="modalContainer" class="modalContainer">
+        <div class="modalContent">
+            <span class="close">&times;</span>
+            <div class="modalContentContainer">
+                <img id="modalImages" src="" />
+                <div class="modalInfo">
+
+                    <h3 class="modalTitel"></h3>
+                    <p class="clothesPrice"></p>
+                </div>
+            </div>
+
+            <div class="btnBasketContainer">
+                <i class="fas fa-shopping-basket" id="btnBasket"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+
+        <img class="footerLogo" src="images/logo_transparent.png" alt="logga: Adela made by Elina Larsson">
+        <p class="footerLegal">© Copyright Adela made by Elina Larsson</p>
+
+    </footer>
+
+</body>
+
+</html>

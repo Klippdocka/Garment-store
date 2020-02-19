@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="contact.js"></script>
+    <title>Adela webshop</title>
+
+</head>
+
+<body class="bodyWrapper">
+
+    <header>
+        <img src="images/logo_transparent - kopia.png" alt="logga: Adela made by Elina Larsson"> </header>
+
+
+    <nav>
+        <ul class="navMeny">
+            <li><a href="index.html">Hem</a></li>
+            <li class="active"><a href="contact.html">kontakt</a></li>
+        </ul>
+    </nav>
+    <div class="mainContainer">
+        <section class="contactContainer">
+            <h1>Kontakta oss</h1>
+            <p>Vår kundservice finns tillgänglig Mån-Fre 08-15 för att kunna hjälpa dig
+                med frågor gällande beställningar, byten och returer, passform , storlekar och detaljerad
+                produktinformation.
+            </p>
+            <p>Tveka inte med att skicka iväg ett mail till help@adela.se eller ring oss på 08-234 56 456 för personlig
+                service.</p>
+       
+        <form class="ContactFormContainer" name="contactForm">
+            <div class="selectContainer">
+
+                <h3 class="contactTextAreaTitle">Kontakta oss nedan</h3>
+                <input name="firstLastname" id="firstLastname" type="text" placeholder="Ditt för och efternamn">
+
+                <div class="ContactSelectContainer">
+
+                    <h3 class="selectTitle">Välj typ av fråga</h3>
+
+                    <select class="contactSelect" name="contactSelect">
+                        <option aria-valuemin="Leverans">Leverans</option>
+                        <option value="Byte">Byte</option>
+                        <option value="Retur">Retur</option>
+                        <option value="Faktura">Faktura</option>
+                        <option value="Övrigt">Övrigt</option>
+
+                    </select>
+                </div>
+
+                <h3 class="contactTextAreaTitle">Skriv din fråga nedan</h3>
+                <textarea name="contactTextArea" id="contactTextArea" cols="30" rows="10"
+                    placeholder="skriv din fråga här"></textarea>
+
+
+            </div>
+            <div class="btnContactContainer">
+                <input id="btnContact" class="btnContact" type="submit" value="Skicka">  
+            </div>
+
+            <div class="contactModal" id="contactModal">
+                    
+                <div class="contactContiner">
+                        
+                <div class="contactModalContent">
+                    <div class="ContactbtnContiner">
+                <span class="ContactbtnClose">&times;</span>
+            </div>
+            <div id="contactMessage"></div>
+        </div>
+        </div></div>
+
+        </form>
+    </section>
+    </div>
+
+    <footer>
+
+            <img class="footerLogo" src="images/logo_transparent.png" alt="logga: Adela made by Elina Larsson">
+            <p class="footerLegal">© Copyright Adela made by Elina Larsson</p>
+    
+        </footer>
+
+</body>

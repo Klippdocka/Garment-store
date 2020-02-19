@@ -1,4 +1,4 @@
-![Garment store](/images/webshop.jpg){:height="50%" width="50%"}
+![Garment store](/images/webshop.jpg)
 
 ## Garment store
 *Scool project 1*
